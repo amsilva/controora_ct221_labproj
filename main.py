@@ -3,10 +3,10 @@ from entidades import Atividade
 
 a1 = Pessoa("Fulano", 1001)
 fulano_palestra = Atividade("palestra", 10)
-fulano_certificado = Atividade("certificacao", 40)
+fulano_certificado = Atividade("certificacao", 400)
 fulano_filme = Atividade("filme cinema", 4)
 fulano_filme2 = Atividade("filme netflix", 4)
-fulano_voluntariado = Atividade("voluntariado", 40)
+fulano_voluntariado = Atividade("voluntariado", 400)
 a1.atividades.append(fulano_palestra)
 a1.atividades.append(fulano_certificado)
 a1.atividades.append(fulano_filme)
@@ -14,7 +14,6 @@ a1.atividades.append(fulano_filme2)
 a1.atividades.append(fulano_voluntariado)
 fulano_palestra.aprova()
 fulano_certificado.aprova()
-
 
 a2 = Pessoa("Beltrano", 1002)
 beltrano_curso = Atividade("curso", 200)
